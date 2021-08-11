@@ -6,9 +6,9 @@
         Primary use:	--
 */
 
-/* 
+/*
         --- Table Of Content ---
-        
+
         1. preload
         2. menu
         3. home-background slider
@@ -19,8 +19,8 @@
         8. price
         9. testimonials
         10. contact
-        11.responsive 
-        
+        11.responsive
+
 */
 
 
@@ -241,7 +241,7 @@ body{
     height: 100vh;
     min-height: 100%;
     width: 100%;
-    background-image: url(../img/img1.jpg);
+    background-image: url(../img/camera1.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -250,7 +250,7 @@ body{
     height: 100vh;
     min-height: 100%;
     width: 100%;
-    background-image: url(../img/img2.jpg);
+    background-image: url(../img/camera2.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -259,7 +259,7 @@ body{
     height: 100vh;
     min-height: 100%;
     width: 100%;
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/camera3.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -329,7 +329,7 @@ body{
     position: relative;
 }
 .home-text{
-    width: 100%; 
+    width: 100%;
 }
 .home-text h2 {
     font-size: 49px;
@@ -433,7 +433,7 @@ body{
     position: relative;
 }
 .home-text{
-    width: 100%; 
+    width: 100%;
 }
 
 .home-background{
@@ -617,7 +617,7 @@ body{
     width: 100%;
     height: 550px;
     padding: 0px;
-    background-image: url(../img/about-image.jpg);
+    background-image: url(../img/foto.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -626,7 +626,7 @@ body{
     width: 100%;
     height: 550px;
     padding: 0px;
-    background-image: url(../img/about-image1.jpg);
+    background-image: url(../img/pangalengan.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -750,7 +750,7 @@ body{
     margin-top: 0px;
 }
 #message-content{
-    background: url(../img/message.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/camera4.jpg) 50% 0 no-repeat fixed;
     margin: 0;
     height: 100%;
     position: relative;
@@ -931,7 +931,7 @@ body{
     position: relative;
     top:0;
     -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);	
+    transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .portfolio-wrapper img{
     transition: .4s;
@@ -1132,7 +1132,7 @@ body{
     height: 100%;
     cursor: pointer;
     text-decoration: none;
-    background: transparent url('../img/blank.html'); 
+    background: transparent url('../img/blank.html');
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     z-index: 8040;
 }
@@ -1242,7 +1242,7 @@ body{
     display: inline-block;
     margin-right: -100%;
     padding: 2px 20px;
-    background: transparent; 
+    background: transparent;
     background: rgba(0, 0, 0, 0.8);
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -1280,12 +1280,12 @@ only screen and (min-device-pixel-ratio: 1.5){
 
     #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
         background-image: url('../fancybox_sprite%402x.html');
-        background-size: 44px 152px; 
+        background-size: 44px 152px;
     }
 
     #fancybox-loading div {
         background-image: url('../fancybox_loading%402x.html');
-        background-size: 24px 24px; 
+        background-size: 24px 24px;
     }
 }
 #fancybox-buttons {
@@ -1819,7 +1819,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin-top: 0px;
 }
 #message-content1{
-    background: url(../img/message1.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/camera5.jpg) 50% 0 no-repeat fixed;
     margin: 0;
     height: 100%;
     position: relative;

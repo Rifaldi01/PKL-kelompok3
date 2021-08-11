@@ -1,6 +1,6 @@
 <head>
     <!-- ========== PAGE TITLE ========== -->
-    <title>Pentra-Multipurpose Corporate HTML5 Template</title>
+    <title>Multimedia SMK Mahaputra</title>
     <!-- ========== META TAGS ========== -->
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/site.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+    <link href="{{URL::to('assets/css/font.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('assets/assets/css/bootstrap.min.css')}}" type="text/css')}}" media="screen">
     <link rel="stylesheet" type="text/css')}}" href="{{asset('assets/assets/css/animate.css')}}" media="screen">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">

@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="team-title text-center wow fadeIn">
-                            <h3>Meet Our Team</h3>
+                            <h3>Temukan Team Kami</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                         </div><!-- end team-title  -->
                     </div><!-- end col-md-12  -->
@@ -30,11 +30,11 @@
                                         </div><!-- end table-cell  -->
                                     </div><!-- end overlay-main  -->
                                 </div><!-- end overlay  -->
-                                <img src="img/team1.jpg" alt="" class="team-img">
+                                <img src="{{URL::to('assets/img/team1.jpg')}}" alt="" class="team-img">
                             </div><!-- end team-member  -->
                             <div class="team-details">
-                                <h3>John Maklane</h3>
-                                <h2>Director</h2>
+                                <h3>RIFALDI</h3>
+                                <h2>pelajar</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                             </div><!-- end team-details  -->
                         </div><!-- end corporate-team  -->
@@ -58,11 +58,11 @@
                                         </div><!-- end table-cell  -->
                                     </div><!-- end overlay-main  -->
                                 </div><!-- end overlay  -->
-                                <img src="img/team2.jpg" alt="" class="team-img">
+                                <img src="{{URL::to('assets/img/team2.jpg')}}" alt="" class="team-img">
                             </div><!-- end team-member  -->
                             <div class="team-details">
-                                <h3>Sana Khan</h3>
-                                <h2>Manager</h2>
+                                <h3>DIMAS</h3>
+                                <h2>pelajar</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                             </div><!-- end team-details  -->
                         </div><!-- end corporate-team  -->
@@ -86,11 +86,11 @@
                                         </div><!-- end table-cell  -->
                                     </div><!-- end overlay-main  -->
                                 </div><!-- end overlay  -->
-                                <img src="img/team3.jpg" alt="" class="team-img">
+                                <img src="{{URL::to('assets/img/team3.jpg')}}" alt="" class="team-img">
                             </div><!-- end team-member  -->
                             <div class="team-details">
-                                <h3>Albus Mac</h3>
-                                <h2>Assistant</h2>
+                                <h3>ARYA</h3>
+                                <h2>pelajar</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                             </div><!-- end team-details  -->
                         </div><!-- end corporate-team  -->
@@ -114,11 +114,11 @@
                                         </div><!-- end table-cell  -->
                                     </div><!-- end overlay-main  -->
                                 </div><!-- end overlay  -->
-                                <img src="img/team4.jpg" alt="" class="team-img">
+                                <img src="{{URL::to('assets/img/team4.jpg')}}" alt="" class="team-img">
                             </div><!-- end team-member  -->
                             <div class="team-details">
-                                <h3>John Sina</h3>
-                                <h2>Director</h2>
+                                <h3>RAFLY</h3>
+                                <h2>pelajar</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                             </div><!-- end team-details  -->
                         </div><!-- end corporate-team  -->
@@ -197,9 +197,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="message1-client wow fadeIn">
-                                <h3>Don't worry about business consultant</h3>
-                                <p>You have come to the right place</p>
-                                <a href="#contact">Contact Us</a>
+                                <h3>JANGAN KHAWATIR TENTANG KONSULTAN BISNIS Anda</h3>
+                                <p>telah datang ke tempat yang tepat</p>
+                                <a href="#contact">hubungi kami</a>
                             </div><!-- end message-client  -->
                         </div><!-- end col-md-12  -->
                     </div><!-- end row  -->
