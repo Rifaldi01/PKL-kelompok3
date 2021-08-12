@@ -1,5 +1,5 @@
 @extends('layouts.master')
 @section('content')
-    @include('home.team')
+    @include('home.teams')
     @include('home.contak')
 @endsection

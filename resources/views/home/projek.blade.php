@@ -13,13 +13,6 @@
         </div><!-- end work-grid  -->
         <div class="work-details">
             <div class="container">
-                <ul id="filters" class="clearfix">
-                    <li><span class="filter active" data-filter=".filter1, .filter2, .filter3, .filter4">All</span></li>
-                    <li><span class="filter" data-filter=".filter1">Business</span></li>
-                    <li><span class="filter" data-filter=".filter2">Conference</span></li>
-                    <li><span class="filter" data-filter=".filter3">Meetings</span></li>
-                    <li><span class="filter" data-filter=".filter4">Projects</span></li>
-                </ul>
                 <div id="portfoliolist">
                     <div class="portfolio filter2" data-cat="filter2">
                         <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".2s">

@@ -126,6 +126,9 @@
                 </div><!-- end row  -->
             </div><!-- end container  -->
         </div><!-- end row-grid  -->
+        <div class="message1-client wow fadeIn" style="text-align: center">
+            <a href="{{URL::to('detail')}}">Selengkapnya</a>
+        </div><!-- end message-client  -->
         <div class="skill">
             <div class="skill-main">
                 <div class="container">
