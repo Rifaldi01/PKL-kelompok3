@@ -35,6 +35,9 @@
                                     <a href="#service">Layanan</a>
                                 </li>
                                 <li>
+                                    <a href="#berita">Berita</a>
+                                </li>
+                                <li>
                                     <a href="#contact">Kontak</a>
                                 </li>
                             </ul><!-- end nav -->

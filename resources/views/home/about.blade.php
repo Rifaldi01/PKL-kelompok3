@@ -113,7 +113,6 @@
                             <div class="message1-client wow fadeIn">
                                 <h3>Jangan khawatir dengan hasil</h3>
                                 <p>Kami mengerjakan dengan semaksimal mungkin</p>
-                                <a href="{{URL::to('detail')}}">Selengkapnya</a>
                             </div><!-- end message-client  -->
                         </div><!-- end col-md-12  -->
                     </div><!-- end row  -->
