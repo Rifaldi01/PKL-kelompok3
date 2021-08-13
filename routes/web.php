@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MultimediaController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,11 +15,12 @@ use App\Http\Controllers\MultimediaController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-
-});
+Route::get('/', [MultimediaController::class, 'Index']);
 Route::get('/detail', [MultimediaController::class, 'Detail']);
+//admin
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
+Route::get('/admin/tambah-foto', [AdminController::class, 'foto']);
+Route::get('/admin/tambah-team', [AdminController::class, 'team']);
 
 Auth::routes();
 

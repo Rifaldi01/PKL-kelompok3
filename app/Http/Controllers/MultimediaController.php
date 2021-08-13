@@ -9,4 +9,8 @@ class MultimediaController extends Controller
     public function Detail(){
         return view('detail');
     }
+
+    public function Index(){
+        return view('index');
+    }
 }
