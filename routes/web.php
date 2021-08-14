@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MultimediaController;
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\Admin\GalleryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,10 +18,16 @@ use App\Http\Controllers\AdminController;
 Route::get('/', [MultimediaController::class, 'Index']);
 Route::get('/detail', [MultimediaController::class, 'Detail']);
 //admin
-Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
-Route::get('/admin/tambah-foto', [AdminController::class, 'foto']);
-Route::get('/admin/tambah-team', [AdminController::class, 'team']);
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::group(['prefix' => 'admin', 'middleware' => ['role:admin', 'auth',]], function (){
+    Route::get('/dashboard', [AdminController::class, 'dashboard']);
+    Route::get('/tambah-foto', [AdminController::class, 'foto']);
+    Route::post('/tambah-foto', [GalleryController::class, 'uploadGallery']);
+    Route::get('/tambah-team', [AdminController::class, 'team']);
+});
