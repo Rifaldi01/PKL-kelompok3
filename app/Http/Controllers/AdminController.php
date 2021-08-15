@@ -17,4 +17,9 @@ class AdminController extends Controller
     public  function foto(){
         return view('admin.foto-projek');
     }
+
+
+    public  function detail(){
+        return view('admin.detail');
+    }
 }

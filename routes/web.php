@@ -21,6 +21,7 @@ Route::get('/detail', [MultimediaController::class, 'Detail']);
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/admin/tambah-foto', [AdminController::class, 'foto']);
 Route::get('/admin/tambah-team', [AdminController::class, 'team']);
+Route::get('/admin/detail', [AdminController::class, 'detail']);
 
 Auth::routes();
 
