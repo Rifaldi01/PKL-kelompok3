@@ -12,7 +12,8 @@
                 <div class="row skill-row wow fadeIn">
                     <div class="col-md-6">
                         <div class="skill-details text-left">
-                            <p class="wow fadeIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p class="wow fadeIn">Kegiatan kunjungan industri merupakan salah satu kegiatan yang penitng untuk siswa SMK. Kegiatan ini sebagai pengenalan kepada siswa tentang bagaimana cara bekerja di sebuah industri. Siswa dapat melihat secara langsung proses kerja tersebut dan dapat bertanya secara langsung kepada pelaku industri.
+                            Game Lab Indonesia bekerja sama dengan Educa Studio sebagai salah satu partner yang sama-sama bergerak dalam bidang pendidikan untuk ikut berpastisipasi dalam memberikan pengetahuan dan ilmu yang bermanfaat kepada teman-teman di SMK.</p>
                         </div><!-- end skill-details  -->
                     </div><!-- end col-md-6  -->
                     <div class="col-md-6">

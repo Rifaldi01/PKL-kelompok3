@@ -23,7 +23,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="home-slider-1"></div>
+                    <div class="home-slider-1"><img src="../img/camera1.jpg" alt="" href="#home"></div>
                 </div><!-- end item  -->
                 <div class="item">
                     <div class="home-slider-2"></div>
