@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -15,7 +16,8 @@ class AdminController extends Controller
     }
 
     public  function foto(){
-        return view('admin.foto-projek');
+        $cat = Category::orderBy('category_name', 'asc')->get();
+        return view('admin.foto-projek', compact('cat'));
     }
 
 

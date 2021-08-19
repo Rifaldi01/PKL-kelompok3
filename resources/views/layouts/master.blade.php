@@ -12,6 +12,8 @@
     @yield('content')
 
     @include('layouts.component.footer')
+    @include('sweetalert::alert')
+
 
 </div><!-- end main-page -->
 
