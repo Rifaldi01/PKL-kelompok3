@@ -1,3 +1,4 @@
+@include('layouts.component.head')
 <div class="menubar">
     <div class="menubar-content">
         <nav class="navbar navbar-default navbar-fixed-top">

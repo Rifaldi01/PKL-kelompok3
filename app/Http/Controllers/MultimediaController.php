@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class MultimediaController extends Controller
 {
     public function Detail(){
-        return view('detail');
+        return view('home.detail');
     }
 
     public function Index(){

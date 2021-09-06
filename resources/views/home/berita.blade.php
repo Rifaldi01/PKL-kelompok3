@@ -10,57 +10,28 @@
                     </div><!-- end col-md-12  -->
                 </div><!-- end row  -->
                 <div class="row skill-row wow fadeIn">
-                    <div class="col-md-6">
-                        <div class="skill-details text-left">
-                            <p class="wow fadeIn">Kegiatan kunjungan industri merupakan salah satu kegiatan yang penitng untuk siswa SMK. Kegiatan ini sebagai pengenalan kepada siswa tentang bagaimana cara bekerja di sebuah industri. Siswa dapat melihat secara langsung proses kerja tersebut dan dapat bertanya secara langsung kepada pelaku industri.
-                            Game Lab Indonesia bekerja sama dengan Educa Studio sebagai salah satu partner yang sama-sama bergerak dalam bidang pendidikan untuk ikut berpastisipasi dalam memberikan pengetahuan dan ilmu yang bermanfaat kepada teman-teman di SMK.</p>
-                        </div><!-- end skill-details  -->
-                    </div><!-- end col-md-6  -->
-                    <div class="col-md-6">
-                        <div class="faq-grid">
-                            <div class="panel-group" id="accordion1">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h5 class="panel-title">
-                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href=".html">Lorem ipsum dolor sit amet</a>
-                                        </h5>
-                                    </div><!-- end panel-heading  -->
-                                    <div class="accordion1_1 panel-collapse collapse in">
-                                        <div class="panel-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-
-                                        </div><!-- end panel-body  -->
-                                    </div><!-- end collapse  -->
-                                </div><!-- end panel  -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h5 class="panel-title">
-                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="-2.html">Consectetur adipisicing elit</a>
-                                        </h5>
-                                    </div><!-- end panel-heading  -->
-                                    <div class="accordion1_2 panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-
-                                        </div><!-- end panel-body  -->
-                                    </div><!-- end collapse  -->
-                                </div><!-- end panel  -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h5 class="panel-title">
-                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="-3.html">Augue assum anteposuerit dolore</a>
-                                        </h5>
-                                    </div><!-- end panel-heading  -->
-                                    <div class="accordion1_3 panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-
-                                        </div><!-- end panel-body  -->
-                                    </div><!-- end collapse  -->
-                                </div><!-- end panel  -->
-                            </div><!-- end panel-group  -->
-                        </div><!-- end faq  -->
-                    </div><!-- end col-md-6  -->
+                    <div class="row">
+                        @for ($i = 1; $i<=12 ; $i++)
+                            <div class="col-lg-6" style="margin-bottom: 20px;">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="card-body">
+                                            <img src="{{asset('assets/img/camera1.jpg')}}"
+                                                 style="width:100%; height: auto" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card-body">
+                                            <h3>Judul</h3>
+                                            <p style="text-align: justify">hahaha hahahah aha ah ha ahasdajsgd gajshdga
+                                                dghjasgda asgdjhagd ajshgh</p>
+                                            <a href="" class="pull-right">Selengkapnya</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endfor
+                    </div>
                 </div><!-- end row  -->
             </div><!-- end container  -->
         </div><!-- end skill-main  -->
