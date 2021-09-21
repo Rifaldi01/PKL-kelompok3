@@ -49,7 +49,7 @@
                                 <div class="text-center">
                                     <h3 class="">Sign in</h3>
                                     <p>Don't have an account yet? <a
-                                            href="{{route('register')}}">Sign up here</a>
+                                        {{--                                            href="{{route('register')}}">Sign up here</a>--}}
                                     </p>
                                 </div>
 
@@ -67,11 +67,11 @@
                                         <div class="col-12">
                                             <label for="inputChoosePassword" class="form-label">Enter Password</label>
                                             <div class="input-group" id="show_hide_password">
-                                                <input type="password" class="form-control border-end-0"
-                                                       id="inputChoosePassword" name="password" value="12345678"
-                                                       placeholder="Enter Password"> <a href="javascript:;"
-                                                                                        class="input-group-text bg-transparent"><i
-                                                        class='bx bx-hide'></i></a>
+                                                <input type="password" class="form-control col-lg-11  border-end-0"
+                                                       id="inputChoosePassword" name="password" value=""
+                                                       placeholder="Enter Password">
+                                                      <a href="javascript:;" class="input-group-text bg-transparent">
+                                                    <i class='bx bx-hide'></i></a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">

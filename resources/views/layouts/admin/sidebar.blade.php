@@ -3,7 +3,7 @@
     <div class="sidebar-wrapper" data-simplebar="true">
         <div class="sidebar-header">
             <div>
-                <img src="{{URL::to('assets2/images/mahaputra1.png')}}" class=" img-fluid" style="max-width: 185px; height: auto; margin-left: 10%; margin-right: 10%;" alt="logo icon">
+                <img src="{{URL::to('images/logo/mahaputra1.png')}}" class=" img-fluid" style="max-width: 185px; height: auto; margin-left: 10%; margin-right: 10%;" alt="logo icon">
             </div>
             <div>
 
@@ -21,10 +21,13 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="{{URL::to('/admin/tambah-team')}}"><i class="fadeIn animated bx bx-pie-chart-alt"></i>Tambah Team</a>
+                        <a href="{{URL::to('/admin/create-team')}}"><i class="fadeIn animated bx bx-user-plus"></i>Tambah Team</a>
                     </li>
                     <li>
-                        <a href="{{URL::to('/admin/tambah-foto')}}"><i class="fadeIn animated bx bx-pie-chart-alt"></i>Tambah Foto</a>
+                        <a href="{{URL::to('/admin/tambah-foto')}}"><i class="fadeIn animated bx bx-plus-circle"></i>Tambah Foto</a>
+                    </li>
+                    <li>
+                        <a href="{{URL::to('/admin/create-berita')}}"><i class="fadeIn animated bx bx-book-add"></i>Buat Berita</a>
                     </li>
                 </ul>
             </li>

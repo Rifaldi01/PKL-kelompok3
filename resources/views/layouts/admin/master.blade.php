@@ -10,5 +10,5 @@
     </div>
 </div>
 
-
+@include('sweetalert::alert')
 @include('layouts.admin.js')

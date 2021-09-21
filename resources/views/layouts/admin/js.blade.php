@@ -10,5 +10,5 @@
 <script src="{{URL::to('assets2/plugins/chartjs/js/Chart.extension.js')}}"></script>
 <script src="{{URL::to('assets2/js/index.js')}}"></script>
 <!--app JS-->
-<script src="{{URL::to('assets2/js/app.js')}}"></script>>
+<script src="{{URL::to('assets2/js/app.js')}}"></script>
 @stack('js')

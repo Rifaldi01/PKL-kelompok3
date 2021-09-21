@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{URL::to('assets2/css/header-colors.css')}}"/>
 
 
-    <title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+    <title>MultiMedia MahaPutra</title>
 
     @yield('head')
 </head>

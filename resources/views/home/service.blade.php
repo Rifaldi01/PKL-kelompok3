@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="service-title text-center wow fadeIn" data-wow-delay=".2s">
-                            <h3>Layanan Kami</h3>
+                            <h3>Pembelajaran Kami</h3>
                             <div class="underline"></div>
 
                         </div><!-- end service-title  -->

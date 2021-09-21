@@ -31,6 +31,39 @@
                 </form>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h6 class="mb-0 text-uppercase">Daftar Foto</h6>
+                <hr>
+                <div class="card">
+                    <div class="col-3 ">
+                    </div>
+                    <div class="card-header">
+                    <div class="card-body">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 product-grid">
+                            @foreach($foto as $data)
+                            <div class="col">
+                                <div class="card col-lg-pull-10">
+                                <img src="{{asset('images/gallery/'. $data->img_name)}}" alt="">
+
+                                <div>
+                                    <a  onclick="return confirm('yakin mau hapus ?')"  href="{{url('admin/tambah-foto/delete/'. $data->id)}}"class="bx bx-trash">Hapus</a>
+                                </div>
+                                </div>
+
+                            </div>
+                                @endforeach
+                        </div>
+
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         @endsection
 
 

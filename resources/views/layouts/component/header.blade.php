@@ -32,13 +32,16 @@
                                     <a href="#work">Work</a>
                                 </li>
                                 <li>
-                                    <a href="#service">Layanan</a>
+                                    <a href="#service">Pembelajaran</a>
                                 </li>
                                 <li>
                                     <a href="#berita">Berita</a>
                                 </li>
                                 <li>
                                     <a href="#contact">Kontak</a>
+                                </li>
+                                <li>
+                                    <a href="{{('login')}}">Login</a>
                                 </li>
                             </ul><!-- end nav -->
                         </div><!-- end collapse navbar-collapse -->
