@@ -1,3 +1,4 @@
+@include('layouts.component.head')
 <div class="menubar">
     <div class="menubar-content">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -32,16 +33,13 @@
                                     <a href="#work">Hasil Karya</a>
                                 </li>
                                 <li>
-                                    <a href="#service">Pembelajaran</a>
+                                    <a href="#service">Pelajaran</a>
                                 </li>
                                 <li>
                                     <a href="#berita">Berita</a>
                                 </li>
                                 <li>
                                     <a href="#contact">Kontak</a>
-                                </li>
-                                <li>
-                                    <a href="{{('login')}}">Login</a>
                                 </li>
                             </ul><!-- end nav -->
                         </div><!-- end collapse navbar-collapse -->

@@ -24,7 +24,6 @@
                         </div><!-- end corporate-team  -->
                     </div><!-- end col-md-4  -->
                     @endforeach
-
                 </div><!-- end row  -->
             </div><!-- end container  -->
         </div><!-- end row-grid  -->
@@ -34,8 +33,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="message1-client wow fadeIn">
-                                <h3>JANGAN KHAWATIR TENTANG KONSULTAN BISNIS Anda</h3>
-                                <p>telah datang ke tempat yang tepat</p>
+                                <h3>JANGAN KHAWATIR TENTANG JURUSAN</h3>
+                                <p>Anda Memilih Jurusan Yang Tepat</p>
                                 <a href="#contact">hubungi kami</a>
                             </div><!-- end message-client  -->
                         </div><!-- end col-md-12  -->
@@ -43,5 +42,8 @@
                 </div><!-- end container  -->
             </div><!-- end message-content1  -->
         </div><!-- end work-counter  -->
+
     </div><!-- end team-content  -->
+
+
 </div><!-- end team  -->

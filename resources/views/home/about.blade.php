@@ -62,8 +62,8 @@
                                 <p>Memberikan kualitas serta hasil yang maksimal sesuai dengan perkembangan
                                     jaman dalam bidang foto,vidio,dan design sehingga bisa membuat para pelanggan/customer merasa puas
                                     dengan hasil yang kami berikan dengan harga yang terjangkau untuk kalangan bawah sehingga menengah keatas</p>
-                                <h2><span>1</span>Kami menyediakan jasa untuk bisnis</h2>
-                                <h2><span>2</span>Kami menyediakan harga yang terjangkau</h2>
+                                <h2><span>1</span>Mencetak murid untuk siap menghadapi dunia kerja</h2>
+                                <h2><span>2</span>Membentuk karakter yang kreativ dan inovatif</h2>
                             </div><!-- end about-details  -->
                         </div><!-- end table-cell  -->
                     </div><!-- end about-col  -->
@@ -111,8 +111,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="message1-client wow fadeIn">
-                                <h3>Jangan khawatir dengan hasil</h3>
-                                <p>Kami mengerjakan dengan semaksimal mungkin</p>
+                                <h3>Jangan khawatir </h3>
+                                <p>Kami mendidik dengan semaksimal mungkin</p>
                             </div><!-- end message-client  -->
                         </div><!-- end col-md-12  -->
                     </div><!-- end row  -->
