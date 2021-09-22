@@ -8,6 +8,7 @@
                 <table id="pelanggaran" class="table table-striped table-bordered">
                     <thead>
                     <tr>
+                        <th width="5%">No</th>
                         <th>Foto</th>
                         <th>Nama Lengkapt</th>
                         <th>Alamat</th>
@@ -18,9 +19,11 @@
                     </tr>
                     </thead>
                     <tbody>
+                    @php $no = 1; @endphp
                     @foreach($team as $data)
                     <tr>
-                        <td><img class="img-responsive"  src="{{URL::to('images/gallery/'. $data->image)}}" style="max-width: 100px; height: auto; border-radius: 100px;" alt=""></td>
+                        <td>{{$no ++}}</td>
+                        <td><img class="img-responsive"  src="{{URL::to('images/team/'. $data->image)}}" style="max-width: 100px; height: auto; border-radius: 100px;" alt=""></td>
                         <td>{{$data->name}}</td>
                         <td>{{$data->addres}}</td>
                         <td>{{$data->status}}</td>
@@ -32,7 +35,7 @@
                                     </li>
                                     <li><a class="dropdown-item" href="{{url('admin/team/edit/'. $data->id)}}">Edit</a>
                                     </li>
-                                    <li><a class="dropdown-item" onclick="return confirm('yakin mau hapus ?')" href="{{url('admin/berita/delete/'. $data->id)}}">Delete</a>
+                                    <li><a class="dropdown-item" onclick="return confirm('yakin mau hapus ?')" href="{{url('admin/team/delete/'. $data->id)}}">Delete</a>
                                     </li>
                                 </ul>
                             </div>

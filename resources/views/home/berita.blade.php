@@ -16,7 +16,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card-body">
-                                            <img src="{{url('images/gallery/'.$data->img_berita)}}"
+                                            <img src="{{url('images/news/'.$data->img_berita)}}"
                                                  style="width:100%; height: auto" alt="">
                                         </div>
                                     </div>

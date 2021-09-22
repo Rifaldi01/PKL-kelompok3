@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="team-title text-center wow fadeIn">
-                            <h3>Temukan Team Kami</h3>
+                            <h3>Guru Multimedia</h3>
                         </div><!-- end team-title  -->
                     </div><!-- end col-md-12  -->
                 </div><!-- end row  -->
@@ -14,7 +14,7 @@
                     <div class="col-md-3 col-sm-6 team-col">
                         <div class="corporate-team">
                             <div class="team-member wow fadeIn" data-wow-delay=".2s">
-                                <img src="{{URL::to('images/gallery/'. $data->image)}}" alt="" class="team-img" style="height: 400px">
+                                <img src="{{URL::to('images/team/'. $data->image)}}" alt="" class="team-img" style="height: 400px">
                             </div><!-- end team-member  -->
                             <div class="team-details">
                                 <h3>{{{$data->name}}}</h3>

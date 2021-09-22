@@ -21,7 +21,7 @@ class BeritaController extends Controller
             $img = $img->resize(null, 500, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $img->save(public_path("images/gallery/{$name}"), 70, $ex);
+            $img->save(public_path("images/news/{$name}"), 70, $ex);
             Berita::whereId($berita->id)->update([
                 'img_berita' => $name
             ]);

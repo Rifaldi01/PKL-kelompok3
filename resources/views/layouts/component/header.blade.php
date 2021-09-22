@@ -23,16 +23,16 @@
                                     <a href="#home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">Tentang Kami</a>
+                                    <a href="#about">Tentang</a>
                                 </li>
                                 <li>
                                     <a href="#team">Guru</a>
                                 </li>
                                 <li>
-                                    <a href="#work">Hasil Karya</a>
+                                    <a href="#work">Karya</a>
                                 </li>
                                 <li>
-                                    <a href="#service">Pembelajaran</a>
+                                    <a href="#service">Pelajaran</a>
                                 </li>
                                 <li>
                                     <a href="#berita">Berita</a>

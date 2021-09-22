@@ -72,6 +72,7 @@
                 <table id="pelanggaran" class="table table-striped table-bordered">
                     <thead>
                     <tr>
+                        <th>No</th>
                         <th>Foto</th>
                         <th>Judul</th>
                         <th>info</th>
@@ -81,9 +82,11 @@
                     </tr>
                     </thead>
                     <tbody>
+                    @php $no = 1; @endphp
                     @foreach($berita as $data)
                         <tr>
-                            <td><img class="img-responsive"  src="{{URL::to('images/gallery/'. $data->img_berita)}}" style="max-width: 100px; height: auto; border-radius: 100px;" alt=""></td>
+                            <td>{{$no ++}}</td>
+                            <td><img class="img-responsive"  src="{{URL::to('images/news/'. $data->img_berita)}}" style="max-width: 100px; height: auto; border-radius: 100px;" alt=""></td>
                             <td>{{$data->title}}</td>
                             <td>{{$data->info}}</td>
                             <td>{{$data->status}}</td>

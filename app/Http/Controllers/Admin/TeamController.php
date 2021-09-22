@@ -11,7 +11,7 @@ use Intervention\Image\ImageManagerStatic;
 class TeamController extends Controller
 {
     public function uploadteam(Request $request){
-        $team = Team::create($request->only(['name','alamat','addres','keahlian','status',]));
+        $team = Team::create($request->only(['name','addres','keahlian', 'status']));
 
         $image = $request->file('image');
         $name = md5($image->getClientOriginalName().now()). '.png';
@@ -20,7 +20,7 @@ class TeamController extends Controller
         $img = $img->resize(null, 500, function ($constraint) {
             $constraint->aspectRatio();
         });
-        $img->save(public_path("images/gallery/{$name}"), 70, $ex);
+        $img->save(public_path("images/team/{$name}"), 70, $ex);
         Team::whereId($team->id)->update([
             'image' => $name
         ]);
@@ -34,7 +34,7 @@ class TeamController extends Controller
     }
 
     public function Update(Request $request, $id){
-        $team = Team::whereId($id)->update($request->only(['name', 'keahlian', 'status', 'addres']));
+        $team = Team::whereId($id)->update($request->only(['name', 'keahlian', 'addres', 'status']));
 
         if ($request->file('image')){
             $image = $request->file('image');
@@ -44,12 +44,12 @@ class TeamController extends Controller
             $img = $img->resize(null, 500, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $img->save(public_path("images/gallery/{$name}"), 70, $ex);
+            $img->save(public_path("images/team/{$name}"), 70, $ex);
             Team::whereId($id)->update([
                 'image' => $name
             ]);
         }
-        return back()->withSuccess('Berhasil');
+        return redirect('/admin/dashboard')->withSuccess('Berhasil');
 
     }
 

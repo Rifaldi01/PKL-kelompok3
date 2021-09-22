@@ -17,7 +17,7 @@ class CreateTeamsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('addres');
-            $table->string('status');
+            $table->integer('cat_id')->nullable();
             $table->string('keahlian');
             $table->string('image')->nullable();
             $table->timestamps();

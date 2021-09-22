@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="work-title text-center wow fadeIn">
-                            <h3>Our Work</h3>
+                            <h3>Hasil Karya </h3>
                         </div>
                         <!-- end work-title  -->
                     </div>

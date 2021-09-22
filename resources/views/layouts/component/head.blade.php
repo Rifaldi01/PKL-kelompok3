@@ -1,6 +1,7 @@
 <head>
     <!-- ========== PAGE TITLE ========== -->
     <title>Multimedia SMK Mahaputra</title>
+    <link rel="icon" href="{{URL::to('images/logo/logo.png')}}" type="image/png"/>
     <!-- ========== META TAGS ========== -->
     <meta name="description" content="">
     <meta name="keywords" content="">
