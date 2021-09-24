@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Category;
-use App\CatTeam;
 use App\Gallery;
 use App\Team;
 use Illuminate\Http\Request;
@@ -11,13 +10,12 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public  function dashboard(){
-        $team_cat = CatTeam::all();
+
         $team=Team::all();
-        return view('admin.dashboard', compact(['team','team_cat']));
+        return view('admin.dashboard', compact(['team']));
     }
 
     public  function team(){
-        $team_cat = CatTeam::orderBy('cat_name', 'asc')->get();
         return view('admin.team', compact(['team_cat']));
     }
 

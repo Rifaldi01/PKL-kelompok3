@@ -26,15 +26,11 @@
 <!--wrapper-->
 <div class="wrapper">
     <header class="login-header shadow">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white rounded fixed-top rounded-0 shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white rounded fixed-top rounded-0 shadow-sm"  style="opacity: 75%">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{url('/')}}">
                     <img src="{{URL::to('/images/logo/mahaputra1.png')}}" width="140" alt=""/>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
-                        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                </button>
 
             </div>
         </nav>
@@ -43,7 +39,7 @@
         <div class="container-fluid">
             <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
                 <div class="col mx-auto">
-                    <div class="card mt-5 mt-lg-0">
+                    <div class="card mt-5 mt-lg-0" style="opacity: 70%">
                         <div class="card-body">
                             <div class="border p-4 rounded">
                                 <div class="text-center">
@@ -84,7 +80,7 @@
             <!--end row-->
         </div>
     </div>
-    <footer class="bg-white shadow-sm border-top p-2 text-center fixed-bottom">
+    <footer class="bg-white shadow-sm border-top p-2 text-center fixed-bottom"  style="opacity: 75%">
         <p class="mb-0">Copyright © 2021. Kelompok 3.</p>
     </footer>
 </div>

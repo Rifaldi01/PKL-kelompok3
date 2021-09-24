@@ -49,7 +49,10 @@
                         <div class="table-cell">
                             <div class="about-details wow fadeInUp">
                                 <h3>VISI</h3>
-                                <p>Menjadi sebuah usaha yang terbaik dan sukses dalam dunia foto,vidio,dan design.</p>
+                                <p>
+                                    Menghasilkan tenaga multimedia yang terampil, kreatif, disiplin, mandiri, bertanggung jawab dan
+                                    professional yang sesuai dengan tuntutan dunia usaha dan industri.
+                                </p>
                             </div><!-- end about-details  -->
                         </div><!-- end table-cell  -->
                     </div><!-- end col-md-6  -->
@@ -59,11 +62,12 @@
                         <div class="table-cell">
                             <div class="about-details wow fadeInUp">
                                 <h3>MISI</h3>
-                                <p>Memberikan kualitas serta hasil yang maksimal sesuai dengan perkembangan
-                                    jaman dalam bidang foto,vidio,dan design sehingga bisa membuat para pelanggan/customer merasa puas
-                                    dengan hasil yang kami berikan dengan harga yang terjangkau untuk kalangan bawah sehingga menengah keatas</p>
-                                <h2><span>1</span>Mencetak murid untuk siap menghadapi dunia kerja</h2>
-                                <h2><span>2</span>Membentuk karakter yang kreativ dan inovatif</h2>
+                                <h2><span>1</span>Meningkatkan kualitas kurikulum produktif multimedia</h2>
+                                <h2><span>2</span>Meningkatkan ketersediaan sarana dan  prasarana,
+                                    khususnya untuk kegiatan belajar mengajar</h2>
+                                <h2><span>3</span>Meningkatkan kompetensi tenaga pengajar multimedia sesuai standar nasional</h2>
+                                <h2><span>4</span>Membentuk tamatan yang berkepribadian unggul, mampu bersaing, mengembangkan diri.</h2>
+                                <h2><span>5</span>Berprestasi di lomba kompetensi siswa dalam bidang Multimedia tingkat Kota/ Kabupaten, Provinsi dan Nasional</h2>
                             </div><!-- end about-details  -->
                         </div><!-- end table-cell  -->
                     </div><!-- end about-col  -->

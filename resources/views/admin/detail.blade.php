@@ -27,6 +27,7 @@
                         <dd class="col-sm-9">{{$team->keahlian}}</dd>
                     </dl>
                     <hr>
+                    <a href="{{url('admin/dashboard')}}" class="btn btn-primary float-end">Kembali</a>
                 </div>
             </div>
 @endsection

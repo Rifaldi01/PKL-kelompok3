@@ -12,17 +12,51 @@
     <div class="row">
         <div class="card-body">
             <div class="col-lg-6">
-                <img src="{{asset('assets/img/camera1.jpg')}}" style="height:500px; width: auto; "  alt="">
-            </div>
-            <div class="col-lg-6">
-                rifasldii
-
+                    <div class="skill">
+                        <div class="skill-main">
+                            <div class="container">
+                                <div class="row" style="margin-left: 250px">
+                                    <div class="col-md-12 text-center" style="margin-top: 25px;">
+                                        <div class="skill-title text-center wow fadeIn">
+                                            <h3 class="">Detail Berita</h3>
+                                        </div><!-- end team-title  -->
+                                    </div><!-- end col-md-12  -->
+                                </div><!-- end row  -->
+                                <div class="row skill-row wow fadeIn">
+                                    <div class="row">
+                                            <div class="col-lg-12" style="margin-top: 17px;">
+                                                <div class="row">
+                                                    <div class="col-sm-5">
+                                                        <div class="card-body">
+                                                            <div class="container">
+                                                            <img src="{{url('images/news/'.$berita->img_berita)}}"
+                                                                 style="width:35%; height: auto" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="card-body">
+                                                            <h3>{{$berita->title}}</h3>
+                                                            <p style="text-align: justify">{{$berita->created_at}}</p>
+                                                            <br>
+                                                            <h4>{{$berita->status}}</h4>
+                                                            <br>
+                                                            <a href="{{url('/')}}" style="float: right">Kembali</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div><!-- end row  -->
+                            </div><!-- end container  -->
+                        </div><!-- end skill-main  -->
+                    </div><!-- end skill  -->
+                </div>
             </div>
         </div>
-    </div>
+
 
     @include('layouts.component.footer')
-
 </div><!-- end main-page -->
 
 <!-- ================================ JQUERY =============================== -->

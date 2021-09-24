@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-2">
                         <div class="site-title">
-                            <h3>Mahaputra</h3>
+                            <h3 style="color: black">Multimedia</h3>
                         </div><!-- end site-title -->
                     </div><!-- end col-md-4 -->
                     <div class="navbar-header">
@@ -21,25 +21,25 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="#home">Home</a>
+                                    <a href="#home" style="color: black">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">Tentang Kami</a>
+                                    <a href="#about"style="color: black">Tentang Kami</a>
                                 </li>
                                 <li>
-                                    <a href="#team">Guru</a>
+                                    <a href="#team"style="color: black">Guru</a>
                                 </li>
                                 <li>
-                                    <a href="#work">Hasil Karya</a>
+                                    <a href="#work"style="color: black">Hasil Karya</a>
                                 </li>
                                 <li>
-                                    <a href="#service">Pelajaran</a>
+                                    <a href="#service"style="color: black">Pelajaran</a>
                                 </li>
                                 <li>
-                                    <a href="#berita">Berita</a>
+                                    <a href="#berita"style="color: black">Berita</a>
                                 </li>
                                 <li>
-                                    <a href="#contact">Kontak</a>
+                                    <a href="#contact"style="color: black">Kontak</a>
                                 </li>
                             </ul><!-- end nav -->
                         </div><!-- end collapse navbar-collapse -->

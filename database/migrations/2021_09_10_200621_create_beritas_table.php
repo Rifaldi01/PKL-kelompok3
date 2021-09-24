@@ -19,7 +19,7 @@ class CreateBeritasTable extends Migration
             $table->string('info');
             $table->string('status');
             $table->string('img_berita')->nullable();
-            $table->timestamps();
+            $table->timestamps()    ;
         });
     }
 

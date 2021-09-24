@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-2">
                         <div class="site-title">
-                            <h3>Mahaputra</h3>
+                            <h3>Multimedia</h3>
                         </div><!-- end site-title -->
                     </div><!-- end col-md-4 -->
                     <div class="navbar-header">

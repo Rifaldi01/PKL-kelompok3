@@ -19,7 +19,7 @@ use App\Http\Controllers\Admin\BeritaController;
 */
 
 Route::get('/', [MultimediaController::class, 'Index']);
-Route::get('/detail', [MultimediaController::class, 'Detail']);
+Route::get('/detail/{id}', [MultimediaController::class, 'Detail']);
 //admin
 
 Auth::routes([

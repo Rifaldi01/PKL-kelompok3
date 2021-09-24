@@ -24,15 +24,20 @@
                                         <div class="card-body">
                                             <h3>{{$data->title}}</h3>
                                             <p style="text-align: justify">{{$data->info}}</p>
-                                            <a href="" class="pull-right">Selengkapnya</a>
+                                            <p>{{$data->created_at}}</p>
+                                            <a class="dropdown-item" href="{{url('/detail/'. $data->id)}}" >Selengkapnya</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         @endforeach
                     </div>
+                    <div class="text-center">
+                        {{ $berita->links() }}
+                    </div>
                 </div><!-- end row  -->
             </div><!-- end container  -->
         </div><!-- end skill-main  -->
     </div><!-- end skill  -->
 </div>
+
