@@ -21,25 +21,25 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="#home" style="color: black">Home</a>
+                                    <a href="{{ url('/') }}" style="color: black">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about"style="color: black">Tentang Kami</a>
+                                    <a href="{{ url('/') }}"style="color: black">Tentang Kami</a>
                                 </li>
                                 <li>
-                                    <a href="#team"style="color: black">Guru</a>
+                                    <a href="{{ url('/') }}"style="color: black">Guru</a>
                                 </li>
                                 <li>
-                                    <a href="#work"style="color: black">Hasil Karya</a>
+                                    <a href="{{ url('/') }}"style="color: black">Hasil Karya</a>
                                 </li>
                                 <li>
-                                    <a href="#service"style="color: black">Pelajaran</a>
+                                    <a href="{{ url('/') }}"style="color: black">Pelajaran</a>
                                 </li>
                                 <li>
-                                    <a href="#berita"style="color: black">Berita</a>
+                                    <a href="{{ url('/') }}"style="color: black">Berita</a>
                                 </li>
                                 <li>
-                                    <a href="#contact"style="color: black">Kontak</a>
+                                    <a href="{{ url('/') }}"style="color: black">Kontak</a>
                                 </li>
                             </ul><!-- end nav -->
                         </div><!-- end collapse navbar-collapse -->
