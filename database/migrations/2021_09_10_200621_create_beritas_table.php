@@ -17,7 +17,7 @@ class CreateBeritasTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('info');
-            $table->string('status');
+            $table->string('desc');
             $table->string('img_berita')->nullable();
             $table->timestamps()    ;
         });

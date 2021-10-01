@@ -13,13 +13,13 @@
                         @csrf
                         <label class="form-label mt-2 mb-2">Select Category</label>
                         <select class="form-select" name="category_id" required>
-                            <option value="">Select Category</option>
+                            <option value="" >Select Category</option>
                             @foreach($cat as $data)
                                 <option value="{{$data->id}}">{{$data->category_name}}</option>
                             @endforeach
                         </select>
-                        <label class="form-label mt-4 mb-2">Select Images</label>
-                        <input type="file" class="form-control" name="img[]" accept="image/*" multiple>
+                        <label class="form-label mt-3 mb-2">Select Images</label>
+                        <input type="file" class="form-control radius-15" name="img[]" accept="image/*" required>
 
                     </div>
                     <div class="card-footer">

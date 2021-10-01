@@ -39,7 +39,7 @@
                                                             <h3>{{$berita->title}}</h3>
                                                             <p style="text-align: justify">{{$berita->created_at}}</p>
                                                             <br>
-                                                            <h4>{{$berita->status}}</h4>
+                                                            <h4>{{$berita->desc}}</h4>
                                                             <br>
                                                             <a href="{{url('/')}}" style="float: right">Kembali</a>
                                                         </div>

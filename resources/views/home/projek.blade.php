@@ -32,7 +32,7 @@
                             <div class="overlay text-center">
                                 <div class="overlay-main">
                                     <div class="table-cell">
-                                        <a class="fancybox" href="{{url('images/gallery/'.$data->img_name)}}" title="little something about the image"><i class="fa fa-file-image-o work-icon" aria-hidden="true"></i></a>
+                                        <a class="fancybox" href="{{url('images/gallery/'.$data->img_name)}}" ><i class="fa fa-file-image-o work-icon" aria-hidden="true"></i></a>
                                     </div>
                                     <!-- end table-cell  -->
                                 </div>

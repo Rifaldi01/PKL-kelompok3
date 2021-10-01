@@ -22,8 +22,8 @@
 <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('assets/js/wow.js')}}"></script>
 <script src="{{asset('assets/js/wow-anim.js')}}"></script>
-<script type="text/javascript" src="assets/js/form-validator.min.js')}}"></script>
-<script type="text/javascript" src="assets/js/contact-form-script.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/js/form-validator.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/js/contact-form-script.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/jquery.scrolly.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets/js/jquery.mixitup.min.js')}}"></script>

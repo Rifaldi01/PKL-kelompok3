@@ -6,35 +6,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="what-title text-center wow fadeIn">
-                                <h3>Apa Yang Kita Lakukan</h3>
+                                <h3>Tentang Kami</h3>
                                 </div><!-- end work-title  -->
                         </div><!-- end col-md-12  -->
-                    </div><!-- end row  -->
-                    <div class="row what-we-row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="what-we-do">
-                                <i class="fa fa-pencil-square-o about-icon" aria-hidden="true"></i>
-                                <h3>Photograpy</h3>
-                                </div><!-- end what-we-do  -->
-                        </div><!-- end col-md-3  -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="what-we-do">
-                                <i class="fa fa-cogs about-icon" aria-hidden="true"></i>
-                                <h3>Filmmaker</h3>
-                            </div><!-- end what-we-do  -->
-                        </div><!-- end col-md-3  -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="what-we-do">
-                                <i class="fa fa-hourglass about-icon" aria-hidden="true"></i>
-                                <h3>Animation</h3>
-                            </div><!-- end what-we-do  -->
-                        </div><!-- end col-md-3  -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="what-we-do">
-                                <i class="fa fa-bolt about-icon" aria-hidden="true"></i>
-                                <h3>3D2D</h3>
-                                </div><!-- end what-we-do  -->
-                        </div><!-- end col-md-3  -->
                     </div><!-- end row  -->
                 </div><!-- end container -->
             </div><!-- end what-we-do-grid  -->

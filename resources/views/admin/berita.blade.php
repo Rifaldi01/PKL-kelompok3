@@ -28,33 +28,17 @@
                     </div>
 
                     <div class="col-lg-2 mt-2 mb-2">
-                        <label class="form-label mt-2 mb-2">Keterangan</label>
+                        <label class="form-label mt-2 mb-2">Deskripsi</label>
                     </div>
                     <div class="col-lg-10 mt-2 mb-2">
-                        <textarea type="text" class="form-control radius-15" value="" name="status" required placeholder="keterangan"></textarea>
+                        <textarea type="text" class="form-control radius-15" value="" name="desc" required placeholder="deskripsi"></textarea>
                     </div>
 
                     <div class="col-lg-2 mt-2 mb-2">
                         <label class="form-label mt-2 mb-2">Gambar</label>
                     </div>
                     <div class="col-lg-10 mt-2 mb-2">
-
-                        @isset($status)
-                            <?php
-                            if ($status == 'edit'){
-                                $required = '';
-                            } else {
-                                $required = 'required';
-                            }
-                            ?>
-                        @else
-                            <?php
-                            $required = 'required';
-                            ?>
-                        @endisset
-
-                        <input type="file" class="form-control radius-15" accept="image/*" name="img_berita" {{$required}}
-                        placeholder="image">
+                        <input type="file" class="form-control radius-15" accept="image/*" name="img_berita" placeholder="image">
                     </div>
                 </div>
                 <button class="btn btn-primary btn-sm radius-10 mt-4  float-end pe-3"><i class="bx bx-save pb-1 ps-3"></i>
@@ -75,8 +59,8 @@
                         <th>No</th>
                         <th>Foto</th>
                         <th>Judul</th>
-                        <th>info</th>
-                        <th>Keterangan</th>
+                        <th>Info</th>
+                        <th>Deskripsi</th>
                         <th width="10%" class="text-center">Aksi</th>
 
                     </tr>
@@ -89,7 +73,7 @@
                             <td><img class="img-responsive"  src="{{URL::to('images/news/'. $data->img_berita)}}" style="max-width: 100px; height: auto; border-radius: 100px;" alt=""></td>
                             <td>{{$data->title}}</td>
                             <td>{{$data->info}}</td>
-                            <td>{{$data->status}}</td>
+                            <td>{{$data->desc}}</td>
                             <td><div class="dropdown">
                                     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Primary</button>
                                     <ul class="dropdown-menu">

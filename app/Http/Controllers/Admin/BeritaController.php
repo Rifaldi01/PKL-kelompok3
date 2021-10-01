@@ -12,7 +12,7 @@ class BeritaController extends Controller
 {
     public function uploadberita(Request $request){
 
-            $berita = Berita::create($request->only(['title','info','status']));
+            $berita = Berita::create($request->only(['title','info','desc']));
 
             $image = $request->file('img_berita');
             $name = md5($image->getClientOriginalName().now()). '.png';

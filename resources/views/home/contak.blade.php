@@ -7,7 +7,10 @@
                             <div class="contact-col-grid" data-wow-delay=".2s">
                                 <i class="fa fa-map-marker contact-icon" aria-hidden="true"></i>
                                 <h3>Alamat</h3>
-                                <p>Kab. Bandung</p>
+                                <p><a href="https://goo.gl/maps/cxgsuZsY5dddtEX27" style="color: black">
+                                    Jl. Katapang Andir KM. 4 Kp. Pasantren
+                                    Ds. Sukamukti Kec. Katapang
+                                </a></p>
                             </div><!-- end contact-col  -->
                         </div><!-- end col-md-4  -->
                         <div class="col-md-4 col-sm-4">
@@ -21,7 +24,7 @@
                             <div class="contact-col-grid" data-wow-delay=".6s">
                                 <i class="fa fa-mobile contact-icon" aria-hidden="true"></i>
                                 <h3>Ponsel</h3>
-                                <p>++62123456789</p>
+                                <p>022-5893178 | 0895-6304-68373</p>
                             </div><!-- end contact-col  -->
                         </div><!-- end col-md-4  -->
                     </div><!-- end row  -->

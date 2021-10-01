@@ -16,7 +16,7 @@ class AdminController extends Controller
     }
 
     public  function team(){
-        return view('admin.team', compact(['team_cat']));
+        return view('admin.team');
     }
 
     public  function foto(){

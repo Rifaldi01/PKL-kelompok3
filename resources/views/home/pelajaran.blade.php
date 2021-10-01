@@ -14,26 +14,26 @@
                 <div class="row service-row">
                     <div class="col-md-4 col-sm-6">
                         <div class="service-details wow fadeIn" data-wow-delay=".4s">
-                            <i class="fa fa-pencil-square-o service-icon" aria-hidden="true"></i>
+                            <img class="service-icon"  src="{{asset('images/logo/camera.png')}}" style="height: 58px" >
                             <h3>Fotograrfi</h3>
 
                         </div><!-- end service-details  -->
                     </div><!-- end col-md-4  -->
                     <div class="col-md-4 col-sm-6">
                         <div class="service-details wow fadeIn" data-wow-delay=".6s">
-                            <i class="fa fa-cogs service-icon" aria-hidden="true"></i>
+                            <img class="service-icon" src="{{asset('images/logo/film.png')}}" style="height: 58px" >
                             <h3>Filmaker</h3>
                         </div><!-- end service-details  -->
                     </div><!-- end col-md-4  -->
                     <div class="col-md-4 col-sm-6">
                         <div class="service-details wow fadeIn" data-wow-delay=".2s">
-                            <i class="fa fa-file-image-o service-icon" aria-hidden="true"></i>
+                            <img class="service-icon" src="{{asset('images/logo/desain.png')}}"  style="height: 58px" >
                             <h3>Desain</h3>
                         </div><!-- end service-details  -->
                     </div><!-- end col-md-4  -->
                     <div class="col-md-4 col-sm-6">
                         <div class="service-details wow fadeIn">
-                            <i class="fa fa-heart-o service-icon" aria-hidden="true"></i>
+                            <i class="fa fa-heart-o service-icon" ></i>
                             <h3>3D2D</h3>
                         </div><!-- end service-details  -->
                     </div><!-- end col-md-4  -->

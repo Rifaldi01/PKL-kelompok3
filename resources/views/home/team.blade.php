@@ -14,7 +14,7 @@
                     <div class="col-md-3 col-sm-6 team-col">
                         <div class="corporate-team">
                             <div class="team-member wow fadeIn" data-wow-delay=".2s">
-                                <img src="{{URL::to('images/team/'. $data->image)}}" alt="" class="team-img" style="height: 400px">
+                                <img src="{{URL::to('images/team/'. $data->image)}}" alt="" class="team-img" >
                             </div><!-- end team-member  -->
                             <div class="team-details">
                                 <h3>{{{$data->name}}}</h3>
