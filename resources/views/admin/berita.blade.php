@@ -10,7 +10,7 @@
             <h4><i class="bx bx-plus-circle pt-1"></i> Tambah Berita</h4>
         </div>
         <div class="card-body">
-            <form action="" method="POST" enctype="multipart/form-data">
+            <form id="formTambah" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
                     <div class="col-lg-2 mt-2 mb-2">
@@ -41,7 +41,7 @@
                         <input type="file" class="form-control radius-15" accept="image/*" name="img_berita" placeholder="image">
                     </div>
                 </div>
-                <button class="btn btn-primary btn-sm radius-10 mt-4  float-end pe-3"><i class="bx bx-save pb-1 ps-3"></i>
+                <button id="buttonTambah" class="btn btn-primary btn-sm radius-10 mt-4  float-end pe-3"><i class="bx bx-save pb-1 ps-3"></i>
                     Simpan
                 </button>
             </form>
@@ -97,12 +97,59 @@
     <script src="{{URL::to('assets2/plugins/datatable/js/dataTables.bootstrap5.min.js')}}"></script>
     <script>
         $(document).ready(function() {
-            $('#pelanggaran').DataTable();
+
+            var table = $("#pelanggaran").DataTable();
+
+
+            function reset()
+            {
+                $("input").val('');
+                $("textarea").val('');
+            }
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+                $('#buttonTambah').click(function (e) {
+                e.preventDefault();
+
+                $("#buttonTambah").attr('disabled', true);
+                $("#buttonTambah").html("Menyimpan.....");
+
+                let data = $("#formTambah").serialize();
+                let datax = new FormData(document.getElementById("formTambah"));
+                console.log(data);
+                $.ajax({
+                    data: datax,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    url: "{{ url('admin/create-berita') }}",
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (data) {
+                        if(data.status == 1) {
+                            console.log(data);
+                            reset();
+                            table.draw();
+                            $("#buttonTambah").removeAttr('disabled');
+                            $('#buttonTambah').html(`<i class="bx bx-save pb-1 ps-3"></i>Simpan`);
+                        }
+                    },
+                    error: function (e) {
+                        $('#buttonTambah').html(`<i class="bx bx-save pb-1 ps-3"></i>Simpan`);
+                        $("#buttonTambah").removeAttr('disabled');
+                    }
+                });
+            });
         } );
     </script>
 
     <script>
-        $('#detail').sho(function() {
+        $('#detail').show(function() {
             $('#detailModal').Modal();
         } );
     </script>

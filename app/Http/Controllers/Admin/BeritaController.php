@@ -25,7 +25,12 @@ class BeritaController extends Controller
             Berita::whereId($berita->id)->update([
                 'img_berita' => $name
             ]);
-            return back()->withSuccess('Berita berhasil Ditambahkan');
+
+            if($berita) {
+                return response()->json(['status' => 1], 201);
+            } else {
+                return response()->json(['status' => 2], 404);
+            }
         }
     public function Delete($id){
         DB::table('beritas')->where('id', $id)->delete();

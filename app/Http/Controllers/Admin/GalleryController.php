@@ -12,7 +12,9 @@ use RealRashid\SweetAlert\Facades\Alert;
 class GalleryController extends Controller
 {
     public function uploadGallery(Request $request){
-        foreach ($request->file('img') as $image){
+        if ($request->hasFile('img') ){
+            $image = $request->file('img');
+
             $name = md5($image->getClientOriginalName().now()). '.png';
             $ex = $image->getClientOriginalExtension();
             $img = ImageManagerStatic::make($image);
@@ -20,13 +22,17 @@ class GalleryController extends Controller
                 $constraint->aspectRatio();
             });
             $img->save(public_path("images/gallery/{$name}"), 70, $ex);
+
             $foto = Gallery::create([
                 'img_name' => $name,
                 'category_id' => $request->input('category_id')
             ]);
-//            Alert::success('Berhasil','Upload data berhasil');
-            return back()->with('success' , 'berhasil');
+        } else if(!$request->hasFile('img') ){
+
+            return back()->with('warning', 'Silahkan Isi Foto');
         }
+//            Alert::success('Berhasil','Upload data berhasil');
+        return back()->with('success' , 'berhasil');
     }
 
     public function Deletet($id){
