@@ -50,15 +50,24 @@
                                         @csrf
                                         <div class="col-12">
                                             <label for="inputEmailAddress" class="form-label">Email Address</label>
-                                            <input type="email" name="email" class="form-control" id="inputEmailAddress"
-                                                   placeholder="Email Address">
+                                            <input type="email"  class="form-control {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+
+                                            @if ($errors->has('email'))
+                                                <span class="invalid-feedback">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                            @endif
                                         </div>
                                         <div class="col-12">
                                             <label for="inputChoosePassword" class="form-label">Enter Password</label>
                                             <div class="input-group" id="show_hide_password">
-                                                <input type="password" class="form-control col-lg-11  border-end-0"
-                                                       id="inputChoosePassword" name="password" value=""
-                                                       placeholder="Enter Password">
+                                                <input type="password" class="form-control col-lg-11  border-end-0 {{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" value="{{ old('password') }}" required autofocus>
+
+                                                @if ($errors->has('password'))
+                                                    <span class="invalid-feedback">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                                @endif
                                                 <a href="javascript:;" class="input-group-text bg-transparent">
                                                     <i class='bx bx-hide'></i></a>
                                             </div>

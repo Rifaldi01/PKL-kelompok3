@@ -29,7 +29,7 @@
                         <td>{{$data->status}}</td>
                         <td>{{$data->keahlian}}</td>
                         <td><div class="dropdown">
-                                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Primary</button>
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Option</button>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="{{url('/admin/team/detail/'. $data->id)}}" >Detail</a>
                                     </li>

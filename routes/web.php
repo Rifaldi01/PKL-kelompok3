@@ -31,6 +31,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin', 'middleware' => ['role:admin', 'auth',]], function (){
     Route::get('/dashboard', [AdminController::class, 'dashboard']);
+    Route::get('/', [AdminController::class, 'dashboard']);
    //foto
     Route::get('/tambah-foto', [AdminController::class, 'foto']);
     Route::post('/tambah-foto', [GalleryController::class, 'uploadGallery']);

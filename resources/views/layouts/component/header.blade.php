@@ -41,7 +41,12 @@
                                     <a href="#contact">Kontak</a>
                                 </li>
                                 <li>
-                                    <a href="{{('login')}}">Login</a>
+
+                                    @if(Auth::check() )
+                                        <a href="{{('admin/dashboard')}}">{{\Illuminate\Support\Facades\Auth::user()->name}}</a>
+                                    @else
+                                        <a href="{{('login')}}">Login</a>
+                                        @endif
                                 </li>
                             </ul><!-- end nav -->
                         </div><!-- end collapse navbar-collapse -->

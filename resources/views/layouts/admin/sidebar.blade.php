@@ -29,17 +29,6 @@
                     <li>
                         <a href="{{URL::to('/admin/create-berita')}}"><i class="fadeIn animated bx bx-book-add"></i>Buat Berita</a>
                     </li>
-                    <li><a class="dropdown-item" href="{{route('logout')}}"  onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
-                            <i class='bx bx-log-out-circle'></i>
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="">
-                                @csrf
-                            </form>
-
-                            <span></span>
-                        </a>
-                    </li>
                 </ul>
             </li>
         </ul>
